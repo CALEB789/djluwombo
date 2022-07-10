@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class = "dark"lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DJ LUWOMBO BOY</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class = " bg-white dark:bg-black dark:text-white">
+  <nav class="relative container mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <div class="pt-2">
+        <img style="width:35%;height:35%" src = "images/logo.svg"alt = "logo">
+      </div>
+      <div class=" hidden md:flex space-x-6">
+        <a class = "hover:text-darkGrayishBlue"href="#">Home</a>
+        <a href="#"class = "hover:text-darkGrayishBlue">Latest Music</a>
+        <a href="#"class = "hover:text-darkGrayishBlue">LeaderBoard</a>
+        <a href="#"class = "hover:text-darkGrayishBlue">About</a>
+        <a href ="#"class = "hover:text-darkGrayishBlue">Community</a>
+        <a href="#"class = "hover:text-darkGrayishBlue">Contact</a>
+      </div>
+      <a class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight" href="#">Get Started</a>
+    <button id = "menu-btn"class="block hamburger md:hidden focus:outline-none">
+      <span class = " dark:bg-white hamburger-top"></span>
+      <span class = " dark:bg-white hamburger-middle"></span>
+      <span class = "dark:bg-white hamburger-bottom"></span>
+    </button>
+    </div>
+    <div class="md:hidden">
+      <div id="menu"class = "bg-white dark:bg-slate-800 rounded-lg absolute flex-col items-center hidden self-end   py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+        <a href = "#">Home</a>
+         <a href = "#">Latest Music</a>
+          <a href = "#">LeaderBoard</a>
+           <a href = "#">Community</a>
+            <a href = "#">About</a>
+      </div>
+    </div>
+  </nav>
+  <button
+  id="theme-toggle"
+  type="button"
+  class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+>
+    <img id="theme-toggle-dark-icon"
+    class="w-5 h-5 hidden" src = "/toggle.svg">
+    <img id="theme-toggle-light-icon"
+    class="w-5 h-5 hidden" src = "/togglelight.svg">
+    </button>
+  <section id = "hero">
+    <div class="bg-white dark:bg-slate-800 rounded-lg container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div class = "flex flex-col mb-32 space-y-12 md:w-1/2">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl  md:text-left">Our Music Brings Everyone Together</h1>
+        <p class = "max-w-sm text-center text-darkGrayishBlue md:text-left">Sign Up to Get The Latest Music Updates</p>
+        <div class="flex justify-center md:justify-start">
+                <a class=" p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight" href="#">Get Started</a>
+        </div>
+        </div>
+          <div class = "md:w-1/2">
+            <img src = "images/deejay.jpg">
+        </div>
+    </div>
+  </section>
+  <section id = "features">
+    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+      <div class = "flex flex-col space-y-12 md:w-1/2">
+        <h2 class = "max-w-md text-4xl font-bold text-center md:text-left">Check The Latest Music</h2>
+       <p class = "max-w-sm text-center text-darkGrayishBlue md:text-left">
+         Music Loved By The Community
+       </p>
+     </div>
+     <div class = "flex flex-col space-y-8 md:w-1/2">
+       <div class = "flex flex-col space-y-3 md:space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+         <div class = "rounded-l-full bg-brightRedSupLight md:bg-transparent">
+           <div class = "bg-white dark:bg-slate-800 rounded-full px-6 py-8 ring-1 ring-slate-900/5 flex items-center space-x-2">
+             <div class = "px-4 py-3 text-white rounded-full md:py-1 bg-brightRed">
+               01
+             </div>
+             <h3 class = " text-base font-bold md:mb-4 md:hidden">
+               Great Mixtapes
+             </h3>
+           </div>
+         </div>
+         <div>
+           <h3 class = "hidden mb-4  text-lg font-bold md:block">
+             Great Mixtapes
+           </h3>
+           <p class = "text-darkGrayishBlue">
+            We do only the Best. You will Love Us
+           </p>
+       </div>
+     </div>
+    </div>
+    </div>
+    </section>
+    <section id = 'cta' class = "bg-brightRed">
+      <div class = "container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+        <h2 class = "text-5xl font-bold leading-light text-center text-white md:text-4xl md:max-w-xl md:text-left">
+          Sign Up to Enter the Home Mixtape
+        </h2>
+        <div>
+         <a class=" p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900" href="#">Get Started</a>
+      </div>
+      </div>
+    </section>
+    <footer class = "bg-veryDarkBlue">
+      <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <div class = "flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+          <div>
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+              Copyright &copy; 2022, All Rights Reserved <br>Created with ❤️ By Matovu Caleb
+            </div>
+            <img src ="images/logo.svg" class = "h-12"alt="">
+          </div>
+            <div class = "flex justify-center space-x-4">
+              <a href = "https://www.instagram.com/djluwomboboyug/">
+                <img src ="images/instagram.svg" class = "h-8">
+              </a>
+                <a href = "https://www.tiktok.com/@djluwomboboyug">
+                <img src ="images/tiktok.svg" class = "h-8">
+              </a>
+                <a href = "https://www.facebook.com/profile.php?id=100070554804436">
+                <img src ="images/facebook.svg" class = "h-8">
+              </a>
+                  <a href = "https://mobile.twitter.com/Djluwomboboy">
+                <img src ="images/twitter.svg" class = "h-8">
+              </a>
+            </div>
+        </div>
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href ="#" class ="hover:text-brightRed">Home</a>
+             <a href ="#" class ="hover:text-brightRed">Latest Music</a>
+              <a href ="#" class ="hover:text-brightRed">LeaderBoard</a>
+               <a href ="#" class ="hover:text-brightRed">Latest Music</a>
+                 <a href ="#" class ="hover:text-brightRed">Community</a>
+          </div>
+        </div>
+        <form>
+        <div class = "flex space-x-3">
+          <input class="flex-1 px-4 rounded-full focus:outline-none" placeholder = "updated in Your Inbox"type="email"/>
+          <button class = "px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+            Go
+          </button>
+        </div>
+        </form>
+        <div class="hidden text-white md:block">
+          Copyright &copy; 2022, All Rights Reserved<br>
+Created By Matovu Caleb
+        </div>
+      </div>
+    </footer>
+  <script src="main.js"></script>
+  <script src="../path/to/flowbite/dist/flowbite.bundle.js"></script>
+</body>
+</html>

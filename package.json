@@ -1,0 +1,17 @@
+{
+  "name": "djluwombo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/main.css ",
+    "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "daisyui": "^2.19.0",
+    "flowbite": "^1.4.7"
+  }
+}
